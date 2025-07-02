@@ -1,0 +1,18 @@
+/bin
+/build
+/gradle
+
+# Node
+/node_modules
+
+## OS Files
+.DS_Store
+.vscode/
+.idea
+
+# Generated gradle files
+.gradle/
+
+
+# build files
+.build
