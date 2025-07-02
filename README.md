@@ -1,11 +1,12 @@
 # spring-mdb-demo-101
 
-This is a very basic demo that showcase Spring Data MongoDB. This is a RESTFul app which exposes 2 GET endpoints:
+This is a very basic demo that showcases Spring Data MongoDB. This is a RESTFul app which exposes 2 GET endpoints:
 
-/load : Load 3 users data into mongodb
+/load : This endpoint loads 3 users data into mongodb
 
-/users : Return the list of users in the database
+/users : This endpoint returns the list of users in the database
 
+The app uses an embedded mongodb so no need for an additional setup.
 
 ## Pre-Req
 
@@ -13,7 +14,7 @@ The only requirement here is Java 21. I highly suggested you use [SDK Man](https
 
 ## How too run the app
 
-on the command line simply run: 
+On the command line simply run: 
 
 1. Clone this repo
 ```shell
